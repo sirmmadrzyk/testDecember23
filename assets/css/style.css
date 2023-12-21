@@ -1,0 +1,61 @@
+body{
+    background-color: brown;
+}
+#lastSection{
+    background-color: aqua;
+    
+}
+#lastSection >.row>img {
+    height:25vh;
+    
+}
+
+footer{
+    background-color: black;
+    height:10vh;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    
+
+}
+
+
+#verticalAlign > .row {
+    height: 60vh;
+    background-color: pink;
+}
+
+#verticalAlign  .col {
+    height: 30vh;
+    background-image: url(../images/arena.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+#verticalAlign  .col:hover {
+    /* transform:scale(2, 2); */
+    /* transform:skewX(-10deg);  */
+    background-size: cover;
+    
+}
+#aliGSection{
+    width: 90vw;
+    margin: 2rem auto;
+    background-color: black;
+    color: white;
+    padding: 5rem 5rem;
+    text-align: justify;
+    line-height: 2rem;
+    font-weight: 600;
+}
