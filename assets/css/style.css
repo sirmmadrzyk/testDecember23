@@ -1,6 +1,25 @@
+@font-face {
+    font-family: myAmagro;
+    src: url(../fonts/Amagro.ttf);
+  }
+  
+ 
 body{
+
     background-color: brown;
+    
+    font-family: 'Montserrat';
+    
 }
+
+#start{
+    font-family: myAmagro;
+    font-size: 2rem;
+    
+
+}
+
+
 #lastSection{
     background-color: aqua;
     
@@ -12,11 +31,13 @@ body{
 
 footer{
     background-color: black;
-    height:10vh;
+    font-family: myAmagro; 
     font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 4rem;
     color: white;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 4px 4px 5px white;
     
 
 }
